@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>My First Program</title>
+		<script>
+		function displayAnswer() {
+			document.write("I did this!")
+		}
+		if (confirm("Go to school online"))
+			document.location.href
+			= "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-1-introduction-to-6.00/"
+
+		var unserName; // creates a variable to store name
+		unserName=prompt("What's your name?");
+		document.write("Hey, "+ unserName + "!");
+		</script>
+	</head>
+	<body>
+		<h1>The thirst is real</h1>
+		<form>
+			<p>Where to live?</p>
+			<select name="" id="">
+				<option value="">Toronto</option>
+				<option value="">Los Angeles</option>
+				<option value="">Munich</option>
+			</select>
+		</form>
+		<form>
+			<p>Choose all that applies</p>
+			<input type="checkbox" name="item">Car
+			<input type="checkbox" name="item">Money
+			<input type="checkbox" name="item">Books
+		</form>
+		<br>
+		<form>
+			<p>Level of interest</p>
+			<input type="radio" name="item">low
+			<input type="radio" name="item">average
+			<input type="radio" name="item">high
+		</form>
+		<br>
+		<img src="assets/img/lee.jpg" alt="Bruce Lee">
+		<br>
+		<button type="button" onclick="displayAnswer()">Who did it?</button>
+	</body>
+</html>
