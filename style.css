@@ -271,7 +271,7 @@ h6.title-footer {
 /* ========== WRAP SECTIONS ========== */
 
 #headerwrap {
-	background: url(../img/header_bg.jpg) no-repeat center top;
+	background: url(header_bg.jpg) no-repeat center top;
 	margin-top: -120px;
 	padding-top:160px;
 	text-align:center;
