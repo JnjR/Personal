@@ -377,7 +377,7 @@ h6.title-footer {
 }
 
 #blogwrap {
-	background: url(../img/header_bg.jpg) no-repeat center top;
+	background: url(header_bg.jpg) no-repeat center top;
 	margin-top: -120px;
 	padding-top:160px;
 	text-align:center;
@@ -389,7 +389,7 @@ h6.title-footer {
 }
 
 #portfoliowrap {
-	background: url(../img/portfolio.jpg) no-repeat center top;
+	background: url(portfolio.jpg) no-repeat center top;
 	margin-top: -120px;
 	padding-top:150px;
 	text-align:center;
